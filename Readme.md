@@ -24,4 +24,15 @@ git remote add origin ssh for the created repo
 git remote -v //shows local and remote repos connceted  
 git push -u origin master //creating repo locally  
 ## github workflow
-![alt text](image-1.png)
+![alt text](image-1.png)  
+get diff branch name  
+git merge branch_name  
+
+
+## undo git  
+git reset readme.md  
+git reset //unstaged
+git reset HEAD~1 //uncommit  
+git log //log of commits  
+git reset Hash_value_from_log  
+git reset --hard hash_value_log// unstaged and completely removed  
