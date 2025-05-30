@@ -16,12 +16,22 @@ git commit -m "update readme.md" -m "added the main git commands"<br/>
  $ cat ~/.ssh/id_ed25519.pub | clip Copies the contents of the id_ed25519.pub file to your clipboard  
  resource link [key generate](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) 
  eval "$(ssh-agent -s)" 
- 
-##git push  
+
+## git push  
 git push origin master //made locally then pushed to the repo  
 git inint //initialized empty repo  
 git remote add origin ssh for the created repo  
 git remote -v //shows local and remote repos connceted  
 git push -u origin master //creating repo locally  
-##github workflow
+## github workflow
 ![alt text](image-1.png)
+
+## branching
+git checkout -b branch_name //creating branch  
+git branch // shows which branch
+git checkout branch_name //switch branch  
+git diff branch_name //shows the changes in the branch
+git push --set-upstream origin feature_readme_instruction same as git push -u origin feature_readme_instruction  
+
+
+
