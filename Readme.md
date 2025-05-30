@@ -29,6 +29,7 @@ git push -u origin master //creating repo locally
 
 ## branching
 git checkout -b branch_name //creating branch  
+git branch -d brnach_name //remove branch  
 git branch // shows which branch
 git checkout branch_name //switch branch  
 git diff branch_name //shows the changes in the branch
