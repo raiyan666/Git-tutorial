@@ -19,4 +19,5 @@ git commit -m "update readme.md" -m "added the main git commands"<br/>
  
 ##git push  
 git push origin master //made locally then pushed to the repo
+git inint //initialized empty repo
 git push //creating repo locally
