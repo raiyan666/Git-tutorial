@@ -23,6 +23,7 @@ git inint //initialized empty repo
 git remote add origin ssh for the created repo  
 git remote -v //shows local and remote repos connceted  
 git push -u origin master //creating repo locally  
+
 ## github workflow
 ![alt text](image-1.png)  
 ## git test check  
