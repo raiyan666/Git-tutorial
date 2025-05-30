@@ -25,3 +25,9 @@ git remote -v //shows local and remote repos connceted
 git push -u origin master //creating repo locally  
 ## github workflow
 ![alt text](image-1.png)
+
+## branching
+git checkout -b branch_name //creating branch  
+git branch // shows which branch
+git checkout branch_name //switch branch  
+
